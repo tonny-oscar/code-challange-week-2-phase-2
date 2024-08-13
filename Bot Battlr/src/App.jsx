@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import BotCollection from "./components/BotCollection";
-import BotArmy from "./components/BotArmy";
+import { useEffect, useState } from 'react';
+import BotArmy from '../components/BotArmy';
+import BotCollection from '../components/Bot Collection';
 
 function App() {
   const [data, setData] = useState([]);
@@ -45,4 +45,4 @@ function App() {
   );
 }
 
-export default App.jsx;
+export default App;
